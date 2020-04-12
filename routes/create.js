@@ -5,7 +5,8 @@ var request = require('request');
 
 // GET create  page
 
-router.get('/', function(req, res, next) {
+router.get('/:pokeId', function(req, res, next) {
+    
     res.render('create', {message: false});
 });
 
