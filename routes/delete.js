@@ -17,7 +17,7 @@ router.get('/:pokeId', function (req, res, next) {
     res.render('delete', {
         title: "Deleted",
         pokemon: Pokemon,
-        id_deleted = pokemon[id_deleted]
+        id: id_deleted
     })
 
 
